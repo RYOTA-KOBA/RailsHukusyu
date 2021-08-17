@@ -1,24 +1,9 @@
-# README
+## Rails復習用
+rails復習用に作ったリポジトリです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 環境構築
+```
+$ git clone https://github.com/RYOTA-KOBA/RailsHukusyu.git
+$ docker-compose up -d --build
+```
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
