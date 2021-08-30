@@ -11,6 +11,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 # gem 'mini_racer', platforms: :ruby
 
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+
 gem 'bootstrap-sass', '3.3.7'
 
 gem 'rails-controller-testing'
