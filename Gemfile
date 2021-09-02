@@ -11,6 +11,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 # gem 'mini_racer', platforms: :ruby
 
+gem 'carrierwave'
+gem 'mini_magick'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
@@ -46,6 +48,10 @@ group :test do
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
+end
+
+group :production do
+  gem 'fog'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
